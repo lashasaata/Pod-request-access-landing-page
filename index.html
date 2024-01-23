@@ -23,10 +23,12 @@
           </p>
           <div>
             <div class="request">
-              <input id="input" type="email" />
-              <button id="button">Request Access</button>
+              <input id="input" type="email" placeholder="Email address" />
+              <button id="button" onclick="requestAccess()">
+                Request Access
+              </button>
             </div>
-            <span class="error">Oops! Please check your email</span>
+            <span id="error">Oops! Please check your email</span>
           </div>
           <div class="icons">
             <img src="assets/desktop/spotify.svg" alt="spotify" />
@@ -46,6 +48,6 @@
         />
       </div>
     </main>
-    <script href="scrypt.js"></script>
+    <script src="./scrypt.js"></script>
   </body>
 </html>
