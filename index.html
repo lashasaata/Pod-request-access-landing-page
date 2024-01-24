@@ -21,7 +21,7 @@
             your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
             Casts and more!
           </p>
-          <div>
+          <div class="registration">
             <div class="request">
               <input id="input" type="email" placeholder="Email address" />
               <button id="button" onclick="requestAccess()">
@@ -31,13 +31,22 @@
             <span id="error">Oops! Please check your email</span>
           </div>
           <div class="icons">
-            <img src="assets/desktop/spotify.svg" alt="spotify" />
-            <img src="assets/desktop/apple-podcast.svg" alt="apple-podcast" />
+            <img id="spotify" src="assets/desktop/spotify.svg" alt="spotify" />
             <img
+              id="apple"
+              src="assets/desktop/apple-podcast.svg"
+              alt="apple-podcast"
+            />
+            <img
+              id="google"
               src="assets/desktop/google-podcasts.svg"
               alt="google-podcasts"
             />
-            <img src="assets/desktop/pocket-casts.svg" alt="pocket-casts" />
+            <img
+              id="pocket"
+              src="assets/desktop/pocket-casts.svg"
+              alt="pocket-casts"
+            />
           </div>
         </div>
         <img class="hero" src="assets/desktop/image-host.jpg" alt="host" />
