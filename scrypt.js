@@ -2,6 +2,7 @@ const input = document.getElementById("input");
 const button = document.getElementById("button");
 const p = document.getElementById("error");
 
+// sets opacity on input if it exict, checks and logs error
 let inputValue = "";
 input.addEventListener("input", (event) => {
   inputValue = event.target.value;
